@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task8</title>
+        <style>
+            .center-align {
+    display: flex;
+    justify-content: center;
+  }
+        </style>
+    </head>
+    <body>
+        <form method="" action="">
+            <table border="1" align="center" width="600" >
+            <caption>Registration form</caption>
+            <tr>
+            <th>First name</th>
+            <td><input type="text" name="first_name" id="first_name" maxlength="15"required/></td>
+            </tr>
+            
+            <tr>
+            <th>Last name</th>
+            <td><input type="text" name="last_name" id="last_name" /></td>
+            </tr>
+            
+            <tr>
+                <th>Enter your email</th>
+                <td><input type="email"/></td>
+            </tr>
+            
+            <tr>
+            <th>Password</th>
+            <td><input type="password"/></td>
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td><input type="password"/></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                Male<input type="radio" name="g" value="male"/>
+                Female<input type="radio" name="g" value="female"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="number"/></td>
+                </tr>
+            <tr>
+            <th>Address</th>
+            <td><textarea rows="12" cols="25"></textarea></td>
+            </tr>
+            
+            <tr>
+                <th>State</th>
+                <td>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                <select name="country">
+                    <option value="" selected="selected" disabled="disabled">Choose your country</option>
+                    <option value="Afganistan">Afganisthan</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="France">France</option>
+                    <option value="India">India</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="U.S.A">U.S.A</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Language Known</th>
+                <td><input type="checkbox" name="English">English
+                    <input type="checkbox" name="Tamil">Tamil
+                    <input type="checkbox" name="Telugu">Telugu
+                    <input type="checkbox" name="Hindi">Hindi
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="Declare">Hereby I declare all the given details are false!!!
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    Log in to <a href="https://ethnus.com/">Ethuns</a> Website.
+                </td>
+            </tr>
+        </table>
+        <div class="center-align">
+            <input type="submit" value="Register"/>
+        </div>
+        </form>
+    </body>
+</html>
